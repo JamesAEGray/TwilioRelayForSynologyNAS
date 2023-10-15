@@ -1,7 +1,7 @@
 # synologyTwilio
 A Simple Script to use Twilio as your SMS outgoing provider for notifications
 
-##Problem:
+## Problem:
 Synology NAS devices allow you to receive notifications from the NAS via email and SMS. However, SMS seems to only work on a few included providers.
 
 While the option exists to "Add SMS provider" the reality is that the POST method does not seem to work and Twilio's API for sending SMS does not respond to the GET method.
